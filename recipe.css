@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playwrite+AU+NSW:wght@100..400&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "young serif";
+    background-color: #f3e5d8;
+    color: #333;
+    padding: 2rem;
+    line-height: 1.6;
+}
+.container{
+    background: #fff;
+    padding: 2rem;
+    margin: auto;
+    max-width: 700px;
+    border-radius: 1rem;
+}
+.recipe-pic{
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.description{
+    margin-bottom: 2rem;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.preparation{
+   background-color: hsl(330, 100%, 98%);
+   padding: 1rem;
+   border-radius: 0.7rem;
+}
+.preparation h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+ul, ol {
+    margin-left: 1.25rem;
+}
+ul li, ol li {
+    margin-bottom: o.5rem;
+}
+strong{
+    font-weight: 600;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+table td{
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #ddd;
+}
+table td:first-child{
+    color: hsl(30, 10%, 34%);
+}
+table td :last-child{
+    color: hsl(14, 36%, 36%);
+    font-weight: 700;
+}
+
